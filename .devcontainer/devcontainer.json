@@ -1,0 +1,18 @@
+{
+  "name": "todo",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "todo",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "node",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "Github.vscode-pull-request-github",
+        "hediet.vscode-drawio",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}

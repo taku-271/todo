@@ -1,0 +1,12 @@
+services:
+  todo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    volumes:
+      - ../:/workspace
+    tty: true
+    command: tail -f /dev/null
