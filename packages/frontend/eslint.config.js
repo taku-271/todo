@@ -2,6 +2,7 @@
 
 const nextPlugin = require("@next/eslint-plugin-next");
 const typescriptParserPlugin = require("@typescript-eslint/parser");
+// const importAccessPlugin = require("eslint-plugin-import-access/flat-config");
 const reactPlugin = require("eslint-plugin-react");
 const reactHooksPlugin = require("eslint-plugin-react-hooks");
 
@@ -49,6 +50,29 @@ const config = [
       ...nextPlugin.configs["core-web-vitals"].rules,
     },
   },
+  // {
+  //   name: "import-access",
+  //   languageOptions: {
+  //     parser: typescriptParserPlugin,
+  //     parserOptions: {
+  //       parserOptions: {
+  //         project: true,
+  //         sourceType: "module",
+  //       },
+  //     },
+  //   },
+  //   plugins: {
+  //     "import-access": importAccessPlugin,
+  //   },
+  //   rules: {
+  //     "import-access/jsdoc": [
+  //       "error",
+  //       {
+  //         defaultImportability: "public",
+  //       },
+  //     ],
+  //   },
+  // },
 ];
 
 module.exports = config;
