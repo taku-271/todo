@@ -1,0 +1,13 @@
+{
+  "name": "todo",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run -b -F '*' dev"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
