@@ -1,0 +1,12 @@
+{
+  "name": "todo",
+  "scripts": {
+    "dev": "bun run -b -F '*' dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
