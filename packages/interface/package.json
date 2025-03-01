@@ -1,0 +1,14 @@
+{
+  "name": "interface",
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "codegen": "graphql-codegen --watch --config ./config/codegen.ts"
+  },
+  "devDependencies": {
+    "@eddeee888/gcg-typescript-resolver-files": "^0.12.0",
+    "@graphql-codegen/cli": "^5.0.5",
+    "@parcel/watcher": "^2.5.1"
+  }
+}

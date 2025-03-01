@@ -1,7 +1,9 @@
 {
   "name": "todo",
   "scripts": {
-    "dev": "bun run -b -F '*' dev"
+    "dev": "bun run -b -F '*' dev",
+    "dev:frontend": "bun run -b -F 'frontend' dev",
+    "dev:backend": "bun run -b -F 'backend' dev"
   },
   "workspaces": [
     "packages/*"
