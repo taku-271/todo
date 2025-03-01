@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@happy-dom/global-registrator": "^17.1.8",
+    "@testing-library/react": "^16.2.0",
     "@yamada-ui/react": "^1.7.5",
     "next": "15.2.0",
     "react": "^19.0.0",
